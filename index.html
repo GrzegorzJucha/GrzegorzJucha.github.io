@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="https://fonts.googleapis.com/css?family=Titillium+Web" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<title>INDEX</title>
+</head>
+
+<body>
+
+	<div class="logo-top"><img src="img/logo-top.png"></div>
+	
+	<div class="container">
+	
+		<div class="column">
+		
+			<h1>Register Form</h1>
+			
+			<div class="shadow">
+			<form action="#">
+				<input type="text" name="username" placeholder="Username" required>
+				<input type="password" name="pass" placeholder="Password" required>
+				<input type="password" name="pass" placeholder="Confirm Password" required>
+				<input type="email" name="email" placeholder="Email" required>
+				<select name="location" required>
+					<option>Your location</option>
+					<option value="location 1">Location 1</option>
+					<option value="location 2">Location 2</option>
+					<option value="location 2">Location 3</option>
+				</select>
+				<div class="checkbox-container">
+					<input type="checkbox" required><p>I have read and accept the terms of use.</p>
+				</div>
+				<button type="submit">Sign Up</button>
+			</form>
+			</div>
+			
+			<h1>Send Email</h1>
+			
+			<div class="shadow">
+			<form action="#">
+				<input type="text" name="username" placeholder="Your Name" required>
+				<input type="email" name="email" placeholder="Your Email" required>
+				<textarea placeholder="Type your message..."></textarea>
+				<div class="checkbox-container">
+					<input type="checkbox" required><p>Send copy to my Email</p>
+				</div>
+				<button type="submit">Send Email</button>
+			</form>
+			</div>
+			
+		</div>	
+		
+		<div class="column">
+			
+			<h1>Sign In Form</h1>
+			
+			<div class="shadow">
+			<form action="#">
+				<input type="text" name="username" placeholder="Username" required>
+				<input type="password" name="pass" placeholder="Password" required>	
+				<div class="button-container">
+					<div class="checkbox-container">
+						<input type="checkbox" required><p>Remember me</p>
+					</div>
+					<button class="small" type="submit">Sign In</button>
+				</div>
+			</form>
+			</div>
+			
+			<h1>Recover Form</h1>
+			
+			<div class="shadow">
+			<form action="#">
+				<input type="email" name="email" placeholder="Enter your Email" required>
+				<input type="tel" name="phonenumber" placeholder="Enter your Phone number" required>
+				<div class="button-container extra">
+					<button class="small" type="submit">Send</button>
+					<button class="small" type="submit" disabled>Done</button>
+				</div>
+			</form>
+			</div>
+			
+			<h1>Subscribe Form</h1>
+			
+			<div class="shadow">
+			<form action="#">
+				<input type="email" name="email" placeholder="Enter your Email" required>
+				<div class="button-container extra">
+					<button class="small" type="submit">Subscribe</button>
+					<button class="small red" type="submit">No, Thanks</button>
+				</div>
+			</form>
+			</div>
+			
+			<div class="logo-bot"><img src="img/logo-bot.png"></div>
+		
+		</div>
+	
+	</div>
+	
+</body>
+
+</html>
